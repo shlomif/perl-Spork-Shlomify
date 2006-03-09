@@ -1,0 +1,26 @@
+---
+name: Spork-Shlomify
+version: 0.0100
+author:
+  - Shlomi Fish <shlomif@iglu.org.il>
+abstract: An improved Spork.
+license: bsd
+resources:
+  license: http://www.opensource.org/licenses/bsd-license.php
+requires:
+  Spork: 0
+  Test::More: 0
+provides:
+  Spork::Shlomify:
+    file: lib/Spork/Shlomify.pm
+    version: 0.0100
+  Spork::Shlomify::Config:
+    file: lib/Spork/Shlomify/Config.pm
+  Spork::Shlomify::Formatter:
+    file: lib/Spork/Shlomify/Formatter.pm
+  Spork::Shlomify::Slides:
+    file: lib/Spork/Shlomify/Slides.pm
+generated_by: Module::Build version 0.2704
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

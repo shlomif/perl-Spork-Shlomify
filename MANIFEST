@@ -1,0 +1,14 @@
+bin/shspork
+Build.PL
+Changes
+lib/Spork/Shlomify/Config.pm
+lib/Spork/Shlomify/Formatter.pm
+lib/Spork/Shlomify.pm
+lib/Spork/Shlomify/Slides.pm
+Makefile.PL # Will be created by "make dist"
+MANIFEST
+META.yml # Will be created by "make dist"
+README
+t/00-load.t
+t/pod-coverage.t
+t/pod.t
