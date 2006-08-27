@@ -1,6 +1,6 @@
 ---
 name: Spork-Shlomify
-version: 0.0100
+version: 0.0200
 author:
   - Shlomi Fish <shlomif@iglu.org.il>
 abstract: An improved Spork.
@@ -13,14 +13,14 @@ requires:
 provides:
   Spork::Shlomify:
     file: lib/Spork/Shlomify.pm
-    version: 0.0100
+    version: 0.0200
   Spork::Shlomify::Config:
     file: lib/Spork/Shlomify/Config.pm
   Spork::Shlomify::Formatter:
     file: lib/Spork/Shlomify/Formatter.pm
   Spork::Shlomify::Slides:
     file: lib/Spork/Shlomify/Slides.pm
-generated_by: Module::Build version 0.2704
+generated_by: Module::Build version 0.2805
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
   version: 1.2

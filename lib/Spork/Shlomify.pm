@@ -3,7 +3,7 @@ package Spork::Shlomify;
 use warnings;
 use strict;
 
-our $VERSION = '0.0100';
+our $VERSION = '0.0200';
 use Spoon 0.22 -Base;
 
 const config_class => 'Spork::Shlomify::Config';
@@ -14,7 +14,7 @@ Spork::Shlomify - An improved Spork.
 
 =head1 VERSION
 
-Version 0.0100
+Version 0.0200
 
 =head1 SYNOPSIS
 

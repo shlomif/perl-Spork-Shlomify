@@ -2,16 +2,16 @@
 use ExtUtils::MakeMaker;
 WriteMakefile
 (
-          'PL_FILES' => {},
-          'INSTALLDIRS' => 'site',
           'NAME' => 'Spork::Shlomify',
+          'VERSION_FROM' => 'lib/Spork/Shlomify.pm',
+          'PREREQ_PM' => {
+                           'Spork' => '0',
+                           'Test::More' => '0'
+                         },
+          'INSTALLDIRS' => 'site',
           'EXE_FILES' => [
                            'bin/shspork'
                          ],
-          'VERSION_FROM' => 'lib/Spork/Shlomify.pm',
-          'PREREQ_PM' => {
-                           'Test::More' => 0,
-                           'Spork' => 0
-                         }
+          'PL_FILES' => {}
         )
 ;
