@@ -3,6 +3,8 @@ package Spork::Shlomify;
 use warnings;
 use strict;
 
+use 5.008;
+
 our $VERSION = '0.0200';
 use Spoon 0.22 -Base;
 
