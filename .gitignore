@@ -1,6 +1,7 @@
 Build
 META.json
 META.yml
+Makefile.PL
 MYMETA.json
 MYMETA.yml
 Spork-Shlomify-*
