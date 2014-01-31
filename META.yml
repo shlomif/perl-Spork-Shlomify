@@ -1,15 +1,17 @@
 ---
-name: Spork-Shlomify
-version: 0.0200
+abstract: 'An improved Spork.'
 author:
-  - Shlomi Fish <shlomif@iglu.org.il>
-abstract: An improved Spork.
+  - 'Shlomi Fish <shlomif@iglu.org.il>'
+build_requires: {}
+configure_requires:
+  Module::Build: 0.40
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
 license: bsd
-resources:
-  license: http://www.opensource.org/licenses/bsd-license.php
-requires:
-  Spork: 0
-  Test::More: 0
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Spork-Shlomify
 provides:
   Spork::Shlomify:
     file: lib/Spork/Shlomify.pm
@@ -20,7 +22,9 @@ provides:
     file: lib/Spork/Shlomify/Formatter.pm
   Spork::Shlomify::Slides:
     file: lib/Spork/Shlomify/Slides.pm
-generated_by: Module::Build version 0.2805
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+requires:
+  Spork: 0
+  Test::More: 0
+resources:
+  license: http://www.opensource.org/licenses/bsd-license.php
+version: 0.0200
