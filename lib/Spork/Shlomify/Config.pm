@@ -8,7 +8,7 @@ use Spork;
 use Spork::Config -Base;
 
 sub default_classes {
-    return 
+    return
         (
             $self->SUPER::default_classes(),
             config_class => 'Spork::Shlomify::Config',

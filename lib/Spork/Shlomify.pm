@@ -10,7 +10,7 @@ const config_class => 'Spork::Shlomify::Config';
 
 =head1 NAME
 
-Spork::Shlomify - An improved Spork. 
+Spork::Shlomify - An improved Spork.
 
 =head1 VERSION
 

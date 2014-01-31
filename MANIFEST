@@ -1,6 +1,7 @@
 Build.PL
 Changes
 MANIFEST
+META.json
 META.yml # Will be created by "make dist"
 Makefile.PL # Will be created by "make dist"
 README
@@ -11,6 +12,7 @@ lib/Spork/Shlomify/Config.pm
 lib/Spork/Shlomify/Formatter.pm
 lib/Spork/Shlomify/Slides.pm
 t/00-load.t
+t/cpan-changes.t
 t/pod-coverage.t
 t/pod.t
-META.json
+t/style-trailing-space.t
