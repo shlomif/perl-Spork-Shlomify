@@ -4,7 +4,7 @@ author:
   - 'Shlomi Fish <shlomif@iglu.org.il>'
 build_requires: {}
 configure_requires:
-  Module::Build: 0.40
+  Module::Build: 0.36
 dynamic_config: 1
 generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132830'
 license: bsd
@@ -23,8 +23,10 @@ provides:
   Spork::Shlomify::Slides:
     file: lib/Spork/Shlomify/Slides.pm
 requires:
+  Spoon: 0
   Spork: 0
   Test::More: 0
+  perl: 5.008
 resources:
   license: http://www.opensource.org/licenses/bsd-license.php
 version: 0.0200
