@@ -5,7 +5,7 @@ use strict;
 
 use 5.008;
 
-our $VERSION = '0.0201';
+our $VERSION = '0.0202';
 use Spoon 0.22 -Base;
 
 const config_class => 'Spork::Shlomify::Config';
@@ -16,7 +16,7 @@ Spork::Shlomify - An improved Spork.
 
 =head1 VERSION
 
-Version 0.0201
+Version 0.0202
 
 =head1 SYNOPSIS
 
