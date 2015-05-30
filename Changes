@@ -1,5 +1,8 @@
 Revision history for Spork-Shlomify
 
+0.0202  2015-05-30
+          - Add 'resources' to META.yml.
+
 0.0201  2014-01-31
           - Convert Module::Build to Test::Run::Builder.
           - Cleanups to Build.PL.

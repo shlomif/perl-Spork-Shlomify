@@ -23,6 +23,13 @@ my $builder = Test::Run::Builder->new(
     add_to_cleanup      => [ 'Spork-Shlomify-*' ],
     script_files => [ "bin/shspork" ],
     create_makefile_pl => "traditional",
+    meta_merge =>
+    {
+        resources =>
+        {
+            repository => 'http://github.com/shlomif/perl-Spork-Shlomify',
+        },
+    },
 );
 
 $builder->create_build_script();
