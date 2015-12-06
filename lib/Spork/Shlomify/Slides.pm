@@ -67,7 +67,7 @@ Generates the HTML Image - conforms to XHTML 1.1.
 
 =head1 AUTHOR
 
-Shlomi Fish, C<< shlomif@iglu.org.il >>
+Shlomi Fish, L<http://www.shlomifish.org/> .
 
 =head1 LICENSE
 

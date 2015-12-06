@@ -17,7 +17,7 @@ Spork::Shlomif::Formatter - the formatting class for Spork::Shlomify
 
 =head1 AUTHOR
 
-Shlomi Fish, C<< shlomif@iglu.org.il >>
+Shlomi Fish, L<http://www.shlomifish.org/> .
 
 =head1 LICENSE
 

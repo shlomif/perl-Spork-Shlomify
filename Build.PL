@@ -9,7 +9,7 @@ use Test::Run::Builder;
 my $builder = Test::Run::Builder->new(
     module_name         => 'Spork::Shlomify',
     license             => 'mit',
-    dist_author         => 'Shlomi Fish <shlomif@iglu.org.il>',
+    dist_author         => 'Shlomi Fish',
     dist_version_from   => 'lib/Spork/Shlomify.pm',
     configure_requires => {
         'Module::Build' => '0.36',
