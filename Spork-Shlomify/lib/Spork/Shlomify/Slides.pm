@@ -4,7 +4,7 @@ use strict;
 use warnings;
 use Spork;
 
-use Spork::Slides -Base;
+use Spork::Shlomify::Slides::FromSpork -Base;
 
 sub make_css_file {
     my $output = $self->hub->template->process('slide.css',
