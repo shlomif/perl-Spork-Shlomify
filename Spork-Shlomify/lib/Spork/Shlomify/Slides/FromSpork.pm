@@ -159,7 +159,7 @@ sub lwp_download {
     system "lwp-download $image_url > /dev/null";
 }
 
-__DATA__
+__END__
 
 =head1 NAME
 
