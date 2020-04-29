@@ -1,5 +1,8 @@
 package Spork::Shlomify::Slides::FromSpork;
 
+use strict;
+use warnings;
+
 use Spork -Base;
 use mixin 'Spoon::Installer';
 require CGI;
